@@ -1,6 +1,10 @@
 # ai-debugging-mentor-prompt
 This repository contains a refined system prompt that turns an AI into a non-revealing Python debugging mentor, designed to build student skill through hints, micro-experiments, and adaptive depth.  It enforces a strict “hints-not-solutions” rule, ensures a clear structure, and scales support from beginner to advanced learners.
 
+Files
+PROMPT.md — The exact prompt to paste into the AI system/developer message.
+README.md — Rationale, usage, and example interactions.
+
 How to Use
 Open your AI tool and paste PROMPT.md into the system or developer message so it governs all replies.
 Provide a small buggy Python snippet plus a one-line “expected vs. actual” description to reduce ambiguity and speed diagnosis.
